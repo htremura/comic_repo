@@ -1,0 +1,107 @@
+body {
+	margin: 0 10% 10% 0;
+	color: #eee;
+  background-color: #111;
+}
+
+#passages{
+	margin: auto;
+	padding: 0;
+	border: 0;
+	max-width: 90em; /* default is 54em */
+	z-index: 1;
+}
+
+.passage {
+  color:#000;
+  text-align:left;
+  border-radius: 0.2em;
+  width: auto;
+  margin: auto;
+  padding: 2em;
+  font-size: 1.75em;
+  background-color:#fff;
+  border: solid #000 0.05em;
+  box-shadow: #000 0.5em 0.5em 0;
+}
+
+.passage a:hover {
+	text-decoration:none;
+}
+
+.passage a:hover {
+	color:purple;
+}
+
+#ui-bar {
+	position: fixed;
+  top: 0;
+  right: 0;
+	width: auto;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#menu a img  {
+	height: 3em;
+  width: 3em;
+  margin: 0.1em;
+}
+
+#menu-core {
+  background-color: #000;
+  border-radius: 5px;
+  border-collapse: separate;
+}
+
+a.internalLink, a.externalLink {
+  border: solid #000 0.05em;
+  white-space: nowrap;
+  padding: 0.1em 0.2em 0.1em 0.2em;
+  border-radius: 0.5em;
+  color:#000;
+}
+
+a.internalLink:hover, a.externalLink:hover {
+  text-decoration: none;
+  box-shadow: #000 0 0 0 0.1em;
+  color:#000;
+}
+
+a.internalLink:active, a.externalLink:active {
+  color: #fff;
+  background-color:#000;
+}
+
+a.macro-cycle{
+  font-style: italic;
+  font-weight: bold;
+}
+
+a.macro-link {
+  text-decoration: underline;
+}
+
+input[type=text] {
+    background-color: #000;
+    color: white;
+    min-width: 9em;
+}
+
+@media screen and (orientation:portrait) {
+	body {
+	margin: 0 0 0 0;
+	}
+	
+	.passage {
+	border-radius: 0.1em;
+	padding: 1.25em;
+	font-size:1.5em;
+	box-shadow: #000 0.2em 0.2em 0;
+	}
+}

@@ -1,0 +1,19 @@
+:: StoryInterface
+<div id="ui-bar">
+	<div id="ui-bar-body">
+		<nav id="menu" role="navigation">
+			<ul>
+				<li class="menu-item" id="menu-item-toggle-closed"><a tabindex="0"></a></li>
+				<li class="menu-item" id="menu-item-toggle"><a tabindex="0"></a></li>
+			</ul>
+			<table id="menu-core">
+				<tr class="menu-item" id="menu-item-buttons">
+					<td class="menu-item" id="menu-item-settings"><a tabindex="0"></a></td>
+					<td class="menu-item" id="menu-item-restart"><a tabindex="0"></a></td>
+				</tr>
+			</table>
+		</nav>
+	</div>
+</div>
+<div id="passages"></div>
+<div id="credits"></div>

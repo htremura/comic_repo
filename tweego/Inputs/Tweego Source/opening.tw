@@ -1,0 +1,14 @@
+:: Start
+<span id="seekret">
+    <<textbox "_magicwords" "">>
+
+    <<button "Click Me!">>
+    <<if _magicwords.toLowerCase() == "something went wrong">>
+        <<replace "#seekret">>
+            [[You've found the seekret|directory]]
+        <</replace>>
+    <<else>>
+        <<replace "#spellcast">>bazinga, you're wrong<</replace>>\
+    <</if>>
+    <</button>>
+<span id="spellcast"></span></span>
