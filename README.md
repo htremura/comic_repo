@@ -1,2 +1,2 @@
-# hnexus_python_scripts
- python scripts to organize hnexus files
+# comic_repo
+ python scripts + tweego to organize happy nexus files
